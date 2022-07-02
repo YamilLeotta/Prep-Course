@@ -1,0 +1,42 @@
+h1{color: darkred;}
+img{width: 400px;}
+#thirdDiv{
+    height: 600px;
+    width: 500px;
+    background-color: goldenrod;
+    padding: 50px;
+    border: 5px dotted darkgoldenrod;
+}
+#spanId{
+    font-size: 18px;
+    margin: 50px;
+}
+body{
+    margin: 0;
+    background-image: url("https://img.freepik.com/vector-gratis/fondo-ondulado-abstracto-marron-claro_1108-592.jpg");
+}
+/*
+div{
+    margin-left: auto;
+    margin-right: auto;
+}
+*/
+
+*{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+/*
+.divClass{
+    position: sticky;
+    top: 0;
+    background-color: darkgoldenrod;
+}
+*/
+body{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
